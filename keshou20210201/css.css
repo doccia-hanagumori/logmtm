@@ -1,0 +1,238 @@
+
+        @charset "utf-8";
+
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+           v2.0 | 20110126
+           License: none (public domain)
+        */
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1.2;
+            font-size:0.875rem;
+            color:#fff;
+            background:#ffffff;
+        }
+
+        .p {
+            word-break: break-word;
+        }
+
+        .background {
+            background:url(img/9b87040a900858488d73dd4f0f3f3fc6def1668aea1c3dc3b2f0df0a3674d5b4.jpg) fixed;
+            width: 100%;
+            background-size: cover;
+            height: 100%;
+            position: fixed;
+            background-color: rgb(68, 68, 68);
+            filter: blur(8px);
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .system {
+            color: #999;
+            margin-bottom: 10px;
+        }
+
+        .system + .system {
+            margin-bottom:15px;
+        }
+
+        .body {
+            background:rgba(44, 44, 44, 0.87);
+            max-width:700px;
+            margin:auto;
+            padding:15px;
+            box-sizing:border-box;
+            position: relative;
+        }
+
+        .main {
+            display: flex;
+        }
+
+        .main:not(:last-child) {
+            margin-bottom:15px;
+        }
+
+        .ic {
+            margin-right: 15px;
+        }
+
+        .ic img {
+            max-width:40px;
+        }
+
+        body {
+           font-family: Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+        }
+
+
+        img {
+            max-width:100%;
+            height:auto;
+        }
+
+        b {
+            font-weight:bold;
+        }
+
+        .index {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .index .body {
+            min-width: 70vw;
+            width:100%;
+            text-align: center;
+            padding:40px 15px;
+        }
+
+        .list_link {
+            color:#fff;
+            font-size:16px;
+            padding:10px 10px 15px;
+            background:#000;
+            margin:0 2px;
+            display: block;
+        }
+
+        .index_h1 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .index_h2 {
+            font-size:18px;
+            margin-bottom:5px;
+        }
+
+        .list + .index_h2 {
+            margin-top:20px;
+        }
+
+        .list {
+            display: flex;
+            justify-content: center;
+        }
+
+        .kemono {
+            color: rgb(158, 158, 158);
+        }
+        .kiyoka {
+                    color: rgb(0, 150, 136);
+        }
+
+        .jingo {
+            color: rgb(103, 147, 167);
+        }
+
+        .fukuro_1 {
+            color: rgb(121, 85, 72);
+        }
+
+        .fukuro {
+              color: rgb(153, 117, 72);
+        }
+
+        .naviarea {
+            text-align: center;
+            line-height:1.2;
+        }
+
+        .next {
+            display:flex;
+            justify-content:center;
+            color: #fff;
+            padding: 40px 0;
+            font-size: 30px;
+            position: relative;
+            text-decoration:none;
+        }
+
+        .next:before {
+            display:flex;
+            content:"→";
+            font-size:24px;
+            width:40px;
+            height:40px;
+            border:solid 3px;
+            align-items:center;
+            justify-content:center;
+            margin-right:15px;
+            box-sizing: border-box;
+        }
+
+        .before {
+            display:flex;
+            justify-content:center;
+            color: #fff;
+            padding: 40px 0;
+            font-size: 30px;
+            position: relative;
+            text-decoration:none;
+        }
+
+        .before:before {
+            display:flex;
+            content:"←";
+            font-size:24px;
+            width:40px;
+            height:40px;
+            border:solid 3px;
+            align-items:center;
+            justify-content:center;
+            margin-right:15px;
+            box-sizing: border-box;
+        }
+
+        @media screen and (min-width: 641px) {
+
+        }
+
+        @media screen and (max-width: 640px) {
+
+
+        }
+    
