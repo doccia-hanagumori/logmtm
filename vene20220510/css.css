@@ -35,9 +35,11 @@ body {
     background-size: cover;
     height: 100%;
     position: fixed;
-    background: rgb(180, 179, 172);
+    background: rgb(0, 0, 0);
+    background-image: url(img/back.png);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
 }
-
 ol, ul {
     padding: 10px;
 }
@@ -276,7 +278,7 @@ h3 {
     margin-top: 50px;
     margin-bottom: 20px;
     border-radius: 10px;
-    background: rgba(166, 159, 154, 0.5);
+    background: rgba(129, 139, 177, 0.5);
 }
 
 .player {
