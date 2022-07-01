@@ -252,6 +252,16 @@ hr {
     }
 }
 
+
+.fail {
+    color: #FF0000;
+}
+
+.success {
+    color: #10addd;
+}
+
+
 .prot {
     text-align: center;
 }
