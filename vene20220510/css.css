@@ -58,6 +58,16 @@ table {
     border-spacing: 0;
 }
 
+
+.fail {
+    color: #FF0000;
+}
+
+.success {
+    color: #10addd;
+}
+
+
 /* 見出しのwebフォント */
 
 h1, h2, h3, h4, h5, .menu, .menu2, .type {
