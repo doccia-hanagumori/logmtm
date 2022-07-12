@@ -468,7 +468,7 @@ a:link:not(.list_link):not(.tooltip):not(.page) {
 }
 
 a:visited:not(.list_link):not(.tooltip):not(.page) {
-    color: rgb(156, 154, 166);
+    color: rgb(167, 161, 197);
 }
 
 a:hover:not(.list_link):not(.tooltip):not(.page) {
@@ -481,11 +481,11 @@ a:hover:not(.list_link):not(.tooltip):not(.page) {
 /* フッターのリンク色を変える場合は以下を編集 */
 
 a:link.page {
-    color: rgb(63, 64, 59);
+    color: rgb(134, 155, 208);
 }
 
 a:visited.page {
-    color: rgb(63, 64, 59);
+    color: rgb(68, 112, 149);
 }
 
 a:hover.page {
