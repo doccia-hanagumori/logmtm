@@ -99,7 +99,7 @@ hr {
     }
     .logo {
         margin: 15px auto 20px;
-        max-width: 120px;
+        max-width: 240px;
         max-height: auto;
     }
     hr {
@@ -118,8 +118,8 @@ hr {
     }
     .logo {
         margin: 20px auto 30px;
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 80%;
+        max-height: 80%;
     }
     hr {
         width: 50%;
