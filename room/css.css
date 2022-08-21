@@ -212,6 +212,14 @@ hr {
     border-radius: 10px;
 }
 
+
+.box3 {
+    padding: 10px 10px;
+    margin: 1.0em auto;
+    background: rgba(246, 239, 215, 0.3);
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 767px) {
     .ic {
         margin-right: 10px;
@@ -228,10 +236,10 @@ hr {
         text-align: center;
         font-weight: bold;
     }
-    .box2 {
+    .box2,.box3 {
         width: 90%;
     }
-    .box img, .box2 img {
+    .box img, .box2 img ,.box3 img{
         max-width: 30px;
     }
 }
@@ -252,10 +260,10 @@ hr {
         text-align: center;
         font-weight: bold;
     }
-    .box2 {
+    .box2,.box3 {
         width: 80%;
     }
-    .box img, .box2 img {
+    .box img, .box2 img, .box3 img {
         max-width: 40px;
     }
 }
@@ -519,3 +527,8 @@ a:hover.page {
 @media screen and (min-width: 641px) {}
 
 @media screen and (max-width: 640px) {}
+
+/* love */
+
+.love {
+    color: rgb(223, 32, 147);}
