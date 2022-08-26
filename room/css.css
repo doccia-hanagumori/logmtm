@@ -220,6 +220,14 @@ hr {
     border-radius: 10px;
 }
 
+
+.box4 {
+    padding: 10px 10px;
+    margin: 1.0em auto;
+    background: rgba(246, 239, 215, 0.3);
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 767px) {
     .ic {
         margin-right: 10px;
@@ -236,10 +244,10 @@ hr {
         text-align: center;
         font-weight: bold;
     }
-    .box2,.box3 {
+    .box2,.box3,.box4 {
         width: 90%;
     }
-    .box img, .box2 img ,.box3 img{
+    .box img, .box2 img,.box3 img,.box4 img {
         max-width: 30px;
     }
 }
@@ -260,10 +268,10 @@ hr {
         text-align: center;
         font-weight: bold;
     }
-    .box2,.box3 {
+    .box2,.box3,.box4 {
         width: 80%;
     }
-    .box img, .box2 img, .box3 img {
+    .box img, .box2 img, .box3 img,.box4 img {
         max-width: 40px;
     }
 }
@@ -370,7 +378,7 @@ h3+.player {
 /* ツールチップ */
 
 .tooltip {
-    border-bottom: dotted 1px #FF0000;
+    font-weight: bold;
     position: relative;
 }
 
@@ -414,18 +422,22 @@ h3+.player {
         transition: all.2s;
         z-index: 30
     }
+
     .tooltip:hover .tooltip-text {
         bottom: 0;
     }
+
     .tooltip:hover:after {
         display: block;
     }
+
     .tooltip-text:after {
         display: block;
         position: fixed;
         background: rgba(0, 0, 0, 0.2);
         content: "";
     }
+
     .tooltip:after {
         background: rgba(0, 0, 0, 0.2);
         content: "";
