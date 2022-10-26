@@ -511,11 +511,13 @@ a:hover.page {
 
 .pc3 {
 	color: rgb(224, 224, 224)
-
+}
 
 .pc4 {
 	color: rgb(0, 150, 136)
 }
+
+
 /* /name */
 
 @media screen and (min-width: 641px) {}
