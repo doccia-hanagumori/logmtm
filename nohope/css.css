@@ -214,6 +214,16 @@ hr {
     border-radius: 10px;
 }
 
+
+.card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-width: 80%;
+}
+
 @media screen and (max-width: 767px) {
     .ic {
         margin-right: 10px;
