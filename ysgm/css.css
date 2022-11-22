@@ -35,7 +35,10 @@ body {
     background-size: cover;
     height: 100%;
     position: fixed;
-    background: rgb(180, 179, 172);
+    background: rgb(0, 0, 0);
+    background-image: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
 }
 
 ol, ul {
@@ -79,7 +82,7 @@ h1, h2, h3, h4, h5, .menu, .menu2, .type {
 /* index */
 
 .body {
-    background: rgb(43, 44, 40);
+    background: rgba(0, 0, 0, 0.9);
     max-width: 800px;
     margin: auto;
     box-sizing: border-box;
@@ -99,7 +102,7 @@ hr {
     }
     .logo {
         margin: 15px auto 20px;
-        max-width: 120px;
+        max-width: 80px;
         max-height: auto;
     }
     hr {
@@ -118,8 +121,8 @@ hr {
     }
     .logo {
         margin: 20px auto 30px;
-        max-width: 100%;
-        max-height: 100%;
+        width: 140px;
+        height: auto;
     }
     hr {
         width: 50%;
@@ -167,7 +170,7 @@ hr {
 }
 
 .list_link {
-    background-color: rgba(166, 159, 154, 0.5);
+    background-color: rgba(154, 166, 155, 0.5);
     color: #fff;
     text-decoration: none;
     display: block;
@@ -180,11 +183,11 @@ hr {
 }
 
 .list_link:hover {
-    background-color: rgb(180, 179, 172);
+    background-color: rgb(172, 180, 176);
 }
 
 .credit {
-    color: rgb(166, 159, 154);
+    color: rgb(154, 166, 159);
     margin: 20px auto;
 }
 
@@ -279,7 +282,7 @@ h2 {
     color: #fff;
     position: relative;
     padding: 10px 10px;
-    background-color: rgb(166, 159, 154);
+    background-color: rgba(123, 118, 115, 0.8);
 }
 
 h3 {
@@ -347,7 +350,7 @@ h3+.player {
     padding-right: 20%;
     padding-top: 5px;
     padding-bottom: 25px;
-    background: rgb(246, 239, 215);
+    background: rgb(163, 177, 171);
     display: flex;
     justify-content: space-around;
     z-index: 10;
