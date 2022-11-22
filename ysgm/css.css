@@ -191,6 +191,15 @@ hr {
     margin: 20px auto;
 }
 
+.copyright {
+    font-size: 80%;
+    text-align: center;
+    margin: 80px auto;
+    max-width: 80%;
+}
+
+
+
 /* /index */
 
 .main {
