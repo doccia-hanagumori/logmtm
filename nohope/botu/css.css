@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+           v2.0 | 20110126
+           License: none (public domain)
+        */
+        
+.name1 { color: rgb(0, 188, 212); }
+.name25 { color: rgb(107, 131, 179); }
+.name84 { color: rgb(136, 136, 136); }
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1.8;font-size:.875rem;color:#fff;background-color:#000}.p{word-break:break-word}.h1_sub{display:block;font-size:12px;color:#fff}.background{background-image:url(img/background.jpg);background-size:cover;background-position:center;width:100%;height:100%;position:fixed;filter:blur(5px)}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}table{border-collapse:collapse;border-spacing:0}.box,.system{color:#fff;margin-bottom:15px;background:rgba(0,0,0,.5);padding:5px 10px;border-radius:5px;display:block}.system+.system{margin-top:-10px}.body{background:rgba(0,0,0,.4);max-width:800px;margin:auto;padding:15px;box-sizing:border-box;position:relative}.main{display:flex;text-align:justify}.main:not(:last-child){margin-bottom:15px}.ic{margin-right:15px;line-height:0}.ic img{max-width:60px;height:auto}body{font-family:"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif}img{max-width:100%;height:auto;align-self:flex-start}b{font-weight:700}.success{color:#2196f3}.fail{color:#f50057}
+
+
+h1, h2, h3, h4, h5, .menu, .menu2, .type {
+    font-family: 'Noto Serif JP', serif;
+}
+
+h1 {
+    font-size: 200%;
+    position: relative;
+    padding: 15px 10px;
+    margin: 10px auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    position: relative;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: rgba(166, 159, 154, 0.5);
+}
+
+h3 {
+    position: relative;
+    padding: 5px 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: rgba(166, 159, 154, 0.5);
+}
+
+.player {
+    padding: 5px 10px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    h2 {
+        font-size: 140%;
+        margin: 15px auto;
+    }
+    h3 {
+        font-size: 120%;
+    }
+    .player {
+        font-size: 110%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h2 {
+        font-size: 200%;
+        margin: 15px auto;
+    }
+    h3 {
+        font-size: 160%;
+    }
+    .player {
+        font-size: 120%;
+    }
+}
+
+h2+h3 {
+    margin-top: -5px;
+}
+
+.footer+h3 {
+    margin-top: 0px;
+}
+
+h3+.player {
+    margin-top: -10px;
+}

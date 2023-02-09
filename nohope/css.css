@@ -36,6 +36,7 @@ body {
     height: 100%;
     position: fixed;
     background: rgb(180, 179, 172);
+    background-image: url(img/background.jpg);
 }
 
 ol, ul {
@@ -79,7 +80,7 @@ h1, h2, h3, h4, h5, .menu, .menu2, .type {
 /* index */
 
 .body {
-    background: rgb(43, 44, 40);
+    background: rgba(17, 15, 16, 0.9);
     max-width: 800px;
     margin: auto;
     box-sizing: border-box;
@@ -515,6 +516,9 @@ a:hover.page {
 	color: rgb(107, 131, 179)
 }
 
+.pc2 {
+	color: rgb(0, 188, 212)
+}
 
 /* /name */
 
