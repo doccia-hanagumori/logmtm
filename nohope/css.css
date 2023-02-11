@@ -39,6 +39,17 @@ body {
     background-image: url(img/background.jpg);
 }
 
+
+.background2 {
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+    position: fixed;
+    background: rgb(180, 179, 172);
+    background-image: url(img/background2.jpg);
+}
+
+
 ol, ul {
     padding: 10px;
 }
