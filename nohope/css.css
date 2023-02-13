@@ -42,15 +42,16 @@ body {
 }
 
 
+
 .background2 {
     width: 100%;
     background-size: cover;
     height: 100%;
     position: fixed;
-    background: rgb(180, 179, 172);
+    background: rgb(0, 0, 0);
     background-image: url(img/background2.jpg);
     background-repeat: no-repeat;
-    background-position: 0% 100%;
+    background-position: 50% 50%;
 }
 
 
