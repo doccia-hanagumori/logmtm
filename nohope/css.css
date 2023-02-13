@@ -37,6 +37,8 @@ body {
     position: fixed;
     background: rgb(180, 179, 172);
     background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
 }
 
 
@@ -47,6 +49,8 @@ body {
     position: fixed;
     background: rgb(180, 179, 172);
     background-image: url(img/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
 }
 
 
