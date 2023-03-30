@@ -139,7 +139,7 @@ hr {
         padding: 10px 10px 60px;
     }
     .logo {
-        margin: 15px auto 20px;
+        margin: 5px auto 5px;
         max-width: 120px;
         max-height: auto;
     }
@@ -208,22 +208,36 @@ hr {
 }
 
 .list_link {
-    background-color: rgba(166, 159, 154, 0.5);
     color: #fff;
-    text-decoration: none;
-    display: block;
-    margin: -10px 5px 10px;
-    padding: 0.4rem 0.3rem;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+        text-decoration: none;
+    display: inline-block;
+    width: 350px;
+    margin: 3px 5px;
+    padding: 0.8rem 0.5rem;
+
+}
+
+.list_link::before,
+.list_link::after {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  content: '';
+}
+.list_link,
+.list_link::before,
+.list_link::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .list_link:hover {
-    background-color: rgb(180, 179, 172);
+    border-color: rgb(255, 255, 255);
+    color: #ffffff;
 }
-
 .credit {
     color: rgb(166, 159, 154);
     margin: 20px auto;
@@ -600,3 +614,4 @@ a:hover.page {
 
 .love {
     color: rgb(223, 32, 147);}
+
