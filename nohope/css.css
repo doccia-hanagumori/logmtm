@@ -266,6 +266,30 @@ hr {
     margin-bottom: 15px;
 }
 
+.container_c {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    flex-wrap: nowrap;
+}
+
+.chara {
+    text-align: center;
+    margin: 0 10px;
+    max-width: 120px;
+}
+
+.chara:hover {
+    filter: brightness(120%) drop-shadow(0px 0px 5px rgba(26, 34, 51, 0.1));
+    transform: translateY(-5px);
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+
 /* main */
 
 .box, .system {
