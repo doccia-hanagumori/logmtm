@@ -576,11 +576,11 @@ a:hover:not(.list_link):not(.tooltip):not(.page) {
 /* フッターのリンク色を変える場合は以下を編集 */
 
 a:link.page {
-    color: rgb(63, 64, 59);
+    color: rgb(64, 59, 59);
 }
 
 a:visited.page {
-    color: rgb(63, 64, 59);
+    color: rgb(43, 42, 42);
 }
 
 a:hover.page {
