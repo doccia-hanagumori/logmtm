@@ -43,53 +43,6 @@ body {
 
 
 
-.background2 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgb(0, 0, 0);
-    background-image: url(img/background2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-
-.background3 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgb(0, 0, 0);
-    background-image: url(img/background3.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-
-.background4 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgb(0, 0, 0);
-    background-image: url(img/background4.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
-
-.background5 {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background: rgb(0, 0, 0);
-    background-image: url(img/background5.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-}
-
 
 
 ol, ul {
@@ -125,7 +78,7 @@ table {
 /* 見出しのwebフォント */
 
 h1, h2, h3, h4, h5, .menu, .menu2, .type, .box3::before {
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Dela Gothic One', cursive;
 }
 
 /* /見出しのwebフォント */
@@ -230,6 +183,7 @@ hr {
     width: 350px;
     margin: 3px 5px;
     padding: 0.8rem 0.5rem;
+    font-size: 160%;
 
 }
 
@@ -251,9 +205,11 @@ hr {
 }
 
 .list_link:hover {
-    border-color: rgb(255, 255, 255);
-    color: #ffffff;
+    color: rgba(226, 54, 54, 0.722);
+    font-size: 180%;
+    transition: 0.3s;
 }
+
 .credit {
     color: rgb(166, 159, 154);
     margin: 20px auto;
@@ -391,28 +347,32 @@ hr {
 }
 
 h1 {
-    font-size: 200%;
     position: relative;
-    padding: 15px 10px;
+    padding: 5px 5px;
     margin: 10px auto;
     color: rgb(255, 255, 255);
     text-align: center;
+    font-size: 250%;
 }
 
 h2 {
+    font-size: 200%;
     color: #fff;
     position: relative;
     padding: 10px 10px;
-    background-color: rgb(166, 159, 154, 0.4);
+    border-radius: 10px;
+    background-color: rgba(156, 28, 28, 0.4);
 }
 
 h3 {
     position: relative;
     padding: 5px 10px;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 20px;
     border-radius: 10px;
-    background: rgba(166, 159, 154, 0.5);
+    background-color: rgba(156, 28, 28, 0.4);
+    font-size: 250%;
+
 }
 
 .player {
@@ -473,7 +433,7 @@ h3+.player {
 
 .footer {
     position: fixed;
-    color: rgb(255, 255, 255);
+    color: rgb(139, 53, 53);
     bottom: 0;
     left: 0;
     right: 0;
@@ -482,7 +442,7 @@ h3+.player {
     padding-right: 20%;
     padding-top: 5px;
     padding-bottom: 25px;
-    background: rgb(92, 91, 86);
+    background: rgb(139, 26, 26);
     display: flex;
     justify-content: space-around;
     z-index: 10;
@@ -599,7 +559,7 @@ b {
 /* リンク色 */
 
 a:link:not(.list_link):not(.tooltip):not(.page) {
-    color: rgb(166, 159, 154);
+    color: rgb(166, 154, 154);
 }
 
 a:visited:not(.list_link):not(.tooltip):not(.page) {
@@ -607,7 +567,7 @@ a:visited:not(.list_link):not(.tooltip):not(.page) {
 }
 
 a:hover:not(.list_link):not(.tooltip):not(.page) {
-    color: rgb(246, 239, 215);
+    color: rgb(253, 1, 1);
     transition: color 0.5s
 }
 
@@ -624,7 +584,7 @@ a:visited.page {
 }
 
 a:hover.page {
-    color: rgb(166, 159, 154);
+    color: rgb(253, 1, 1);
     transition: color 0.5s
 }
 
