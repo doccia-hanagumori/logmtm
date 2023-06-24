@@ -108,7 +108,7 @@ hr {
 
     .logo {
         margin: 15px auto 40px;
-        max-width: 70%;
+        max-width: 90%;
         max-height: auto;
     }
 
@@ -215,6 +215,18 @@ hr {
     margin: 20px auto;
 }
 
+@media screen and (max-width: 767px) {
+    .list_link {
+        font-size: 130%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .list_link {
+        font-size: 160%;
+    }
+}
+
 /* /index */
 
 .main {
@@ -248,6 +260,20 @@ hr {
     transform: scale(1.05);
     transition: all 0.3s;
 }
+
+
+@media screen and (max-width: 767px) {
+    .container_c {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container_c {
+        width: 100%;
+    }
+}
+
 
 /* main */
 
@@ -383,6 +409,10 @@ h3 {
 }
 
 @media screen and (max-width: 767px) {
+    h1 {
+        font-size: 150%;
+        margin: 15px auto;
+    }
     h2 {
         font-size: 140%;
         margin: 15px auto;
@@ -396,6 +426,10 @@ h3 {
 }
 
 @media screen and (min-width: 768px) {
+    h2 {
+        font-size: 210%;
+        margin: 15px auto;
+    }
     h2 {
         font-size: 200%;
         margin: 15px auto;
