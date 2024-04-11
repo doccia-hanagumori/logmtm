@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>分岐</title>
+  <style>
+.name1 { color: rgb(136, 136, 136); }
+.name4 { color: rgb(148, 31, 87); }
+.name6 { color: rgb(0, 188, 212); }html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1.8;font-size:.875rem;color:#fff;background-color:#000}.p{word-break:break-word}.h1_sub{display:block;font-size:12px;color:#fff}.background{background-image:url(img/background.jpg);background-size:cover;background-position:center;width:100%;height:100%;position:fixed;filter:blur(5px)}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}table{border-collapse:collapse;border-spacing:0}.system{color:#fff;margin-bottom:15px;background:rgba(0,0,0,.5);padding:5px 10px;border-radius:5px;display:block}.system+.system{margin-top:-10px}.body{background:rgba(0,0,0,.4);max-width:800px;margin:auto;padding:15px;box-sizing:border-box;position:relative}.main{display:flex;text-align:justify}.main:not(:last-child){margin-bottom:15px}.ic{margin-right:15px;line-height:0}.ic img{max-width:60px;height:auto}body{font-family:"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif}img{max-width:100%;height:auto;align-self:flex-start}b{font-weight:700}.success{color:#2196f3}.fail{color:#f50057}
+</style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="body">
+
+<div class="main"><div class="ic"><img src="img/blank.gif" width="60" height="60"></div>
+<div class="p"><b class="name1" >noname</b><br>２月末日、ゲ（略）協会飛行艇。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/blank.gif" width="60" height="60"></div>
+<div class="p"><b class="name1" >noname</b><br>窓から傾いた陽の射し込む時分。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/blank.gif" width="60" height="60"></div>
+<div class="p"><b class="name1" >noname</b><br>さくら組にノックの音と、</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/539468c4a7f5da46029d37b54aefa23768f491f96ad0fb759c30f7cd53fb01a0.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「クライドだ。開けるぞ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/539468c4a7f5da46029d37b54aefa23768f491f96ad0fb759c30f7cd53fb01a0.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>と、確認の声。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「はい！」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>元気の良い声が返事をして、パタパタと足音が近づく。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>返答を受け、扉が開かれる。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>近づく矮躯を見下ろして。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……ただいま。チェリヴィ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ed7aa82c842fb234c0f0f17f9fdda927a9799efc5dc669031bb2b8ea544fb14a.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「おかえりなさい！」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ed7aa82c842fb234c0f0f17f9fdda927a9799efc5dc669031bb2b8ea544fb14a.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>おかえりのハグ。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>抱き留め、背中に腕を回し、頭を撫でる。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ed7aa82c842fb234c0f0f17f9fdda927a9799efc5dc669031bb2b8ea544fb14a.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>何度同じように頭を撫でられても、嬉しそうにする。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>嬉しそうにしてもらえるがゆえにこれをする。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>そうして高い位置にある顔を見上げ、小首を傾げる。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「今日は、何してきましたか？」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「少し、外界に。簡単な護衛の依頼でな」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「多少魔獣が出た程度で、危ないことは起こらなかったよ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ec5961b5fd6c65b2629045d6a397287936a19163a549cf376a34dabd9797e047.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「よかった。おつかれさまです」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「ありがとう。……チェリヴィは」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>ちらとシステムキッチンの方へと視線を向け。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「作ってるところだったか？」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「はい！　もうすぐできます」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6f0772bad81fef28f428729b00c922f151fa4d061795d0364708318cc29709b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「今日は、なすとお肉を……煮こんだやつです！」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6f0772bad81fef28f428729b00c922f151fa4d061795d0364708318cc29709b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「あと白和え……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>すっかり九曜めいたメニューが馴染んできた。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>頭をもう一度撫でて、</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「楽しみだ。手伝うよ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「じゃあ、お皿に取り分けてほしいです」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6f0772bad81fef28f428729b00c922f151fa4d061795d0364708318cc29709b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「今日は、白さん遅くなるって言ってたから、煮物はあっためられるように一人分鍋に残しておいて……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「そうなのか。……分かった」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/8dd6f1136796809880b474cb35879a52f5625df2213627ff5ea21da0074021a9.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>最後にもう一度、チェリヴィを強めに抱き締めてから、</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>腕の力を緩め、離す。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ed7aa82c842fb234c0f0f17f9fdda927a9799efc5dc669031bb2b8ea544fb14a.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>ふふ、と笑いを零して。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>いっしょにキッチンの方へと戻る。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>あとは味を調えるだけだ。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>途中に上着を脱ぎ、ハンガーへとかけ、</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>こちらは食卓を整えている。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/e41f503cd2b03e9fc017be84630e6cabf89fbe048a91f4640cf5c3767393ce7e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>煮物に少し塩を足して、</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「できた」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>食器棚から人数分の皿を取り出して並べ、</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「盛っていいか？」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「はい。お願いします」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「うん。……ああ、美味そうだ」食器を片手に後ろから覗き込みながら。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ed7aa82c842fb234c0f0f17f9fdda927a9799efc5dc669031bb2b8ea544fb14a.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「白さんレシピのおかげです」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「九曜料理もすっかり板についたな」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>言葉を交わしながら料理をよそう。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>自分用は多めに、チェリヴィの方は少なめに。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「はい。最初は不思議な味だったけど、今はおいしいなって思います」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>洗い物をしつつよそわれる量を見て、そのくらいがちょうどいいです、と。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>確認を受けて頷き、食卓へと。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「螺月の料理は身体にいいと言うしな」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>白のレシピならおそらく螺月だろう。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/2d35f2038f069173ff4f07088a69034788ae50f536b512f6b41d28d02c082654.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「みんなで健康になりましょう～」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/86635f171ce0bcef8e245acfc428072f8c5f0539203e7285a101a9e99c2ee105.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「目指していこうか」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>会話の傍らに食卓が整う。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>お茶の用意も済ませ。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>いつもの席に座る。結局、産後もクッションを愛用していた。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>いついかなるときも負担を和らげるに越したことはない。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>二人手を合わせて。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「いただきます」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「いただきます」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>唱和。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>白は上手に箸を使うが、自分たちはどうしてもフォークとスプーンだ。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>スプーンで煮物のなすを掬って、口に運ぶ。<br>とろりと柔く、出汁を吸っている。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>適切に火を通したなすはこうなるらしい。<br>自分だと焦がしてしまうことが多いからなかなか縁がなかった。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>それを口に含み、</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……うん」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「美味いな」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ed7aa82c842fb234c0f0f17f9fdda927a9799efc5dc669031bb2b8ea544fb14a.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「えへ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ed7aa82c842fb234c0f0f17f9fdda927a9799efc5dc669031bb2b8ea544fb14a.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「よかったです」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「トマトで煮込むのは昔よく食べたが」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「九曜だとこういう味付けなんだな」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>正しくは螺月か。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6f0772bad81fef28f428729b00c922f151fa4d061795d0364708318cc29709b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「オショウユ……とか、ミリンとかで、こういう味付けになるんです」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「これもこれで、美味しいです」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「チェリヴィもすっかり慣れてきたな」ショウユとかの扱いに……</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「俺じゃあこうは行かない」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/fc570186e1064ff7c544f03f0ece30d615ca5b8cbc03c630271e5c47c35e5006.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「白さんの、教えのたまものです！」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「でも、九曜味ばっかりもさみしいので、明日はミザの料理にします」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「ああ、いいな」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「白にも教えてやったらいいんじゃないか？」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ed7aa82c842fb234c0f0f17f9fdda927a9799efc5dc669031bb2b8ea544fb14a.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「レシピの、交換っこですね」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ed7aa82c842fb234c0f0f17f9fdda927a9799efc5dc669031bb2b8ea544fb14a.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「今度やってみます。ボルシチとかで……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「いい文化交流になりそうだ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>生涯学習の話を思い出している。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>同時に、螺月と白の話をしていると。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>どうしても思い浮かぶ顔と出来事があり。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……そういえば」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>これは、チェリヴィにも共有しておくべきことだろう。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「落水からの提案」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「あれに断りを入れておいた」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/71565ef87a8f55bbf9a04de0e150cdbc3c5d605e41e8e6e2fcd5c81666648e53.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「あ……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/01f3c907fec510259549ab6be20a6c12dae4d46e32a3c387e3d911e80600872d.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「……白さんを、分ける、っていう、あれ……？」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「あれだ」頷く。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「……喧嘩したり、やなことあったり、しませんでした？」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「いいや」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「あっさりしたものだったよ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>依頼を済ませ、飛行艇から戻り、たまたま落水と顔を合わせ。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>その流れで話をした。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>その程度の軽さで事が済んだ。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>……落水がどういうつもりでその提案を持ち出したのかも、</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>これで、あらかた予想がつくか。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>これは、落水とトラヴィスに話を聞かせてもらってからずっと、クライドと落水が顔を合わせるのを心配していた。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>が、思ったよりも平穏な会話となったようで、ほっとする。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/9bb9287d00ec63c2d944128874a408a1a952703df27c91f8d8532ee9a0c850b4.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「……クライドさんが」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/9bb9287d00ec63c2d944128874a408a1a952703df27c91f8d8532ee9a0c850b4.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「ちゃんと、したいことや、したくないことを言えて、よかったです」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>困ったような作り笑みに。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>この話を出すのはもう少し先でも良かったな、と</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>そのように思った。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>今更だ。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……本人が」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「行きたいと言うなら、そうさせてやるのが」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「俺のしたいことにはなるんだが」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……そうではないらしいからな。どうやら」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>螺月の味を舌に含む。<br>少し癖のある塩味を感じている。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/e41f503cd2b03e9fc017be84630e6cabf89fbe048a91f4640cf5c3767393ce7e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「クライドさんのものなのが、まず一番、ですもんね……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/e41f503cd2b03e9fc017be84630e6cabf89fbe048a91f4640cf5c3767393ce7e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>それは、枷ではなく、望んでしていることなのだと。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「……ただ……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「……責めたり、嫌だったり、ってことじゃないんですけど」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「ああ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「あれを断って、それで、どうやって白さんが擦り切れないようにするか……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「ぜんぜん、分かんないです……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/57251576eaee1215619fec0c20c5efce1b8717ccd25c0eb530d4ea01fd0b3208.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……長い道のりにはなる、と」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/57251576eaee1215619fec0c20c5efce1b8717ccd25c0eb530d4ea01fd0b3208.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「前も話をしたな」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「俺達はそれぞれ問題を抱えている」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「それらは複雑に絡み合っていて、だからこそ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「一朝一夕には解決しないものばかりだ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>チェリヴィの顔を窺う。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/01f3c907fec510259549ab6be20a6c12dae4d46e32a3c387e3d911e80600872d.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>理解してはいる。だが、歯痒い気持ちだ。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「実のところ……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「その、白が擦り切れるかもしれない、という問題に関して」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「俺はそれほど悲観的なものの見方をしていない」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……あまり」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「そうなるのではないか、とは、思えていないというか……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>こういうところが落水を動かしたのだろうな、とも思うが。<br>今は口に出さない。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「俺から見たら」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「結構頼もしいからな。チェリヴィは」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>敢えて飛躍したものの言い方をする。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/fc570186e1064ff7c544f03f0ece30d615ca5b8cbc03c630271e5c47c35e5006.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>むんっ！</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「でも、白さんを困らせてる……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/01f3c907fec510259549ab6be20a6c12dae4d46e32a3c387e3d911e80600872d.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「したいこと、我慢させちゃってる……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……さすがに今は仕方ないと思っているよ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「チェリヴィ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「俺と白から見たお前は」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「心と身体をひどく傷つけられた子どもだ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「…………」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/01f3c907fec510259549ab6be20a6c12dae4d46e32a3c387e3d911e80600872d.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「……大人の人と、セックスしたから？」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/01f3c907fec510259549ab6be20a6c12dae4d46e32a3c387e3d911e80600872d.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「モーリェを、死なせたから……？」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……有り体に言えば、そうだ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「モーリェの死は」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「俺と白の心をも傷つけはしたが……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「それでも、お前は子どもで」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「何よりも」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「お前は、モーリェの母だから」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「特別に傷つき苦しんでいる」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「これを気遣わない存在に、俺も白もなりたくはないな」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/01f3c907fec510259549ab6be20a6c12dae4d46e32a3c387e3d911e80600872d.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「でも、元気になってきてると、思う……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/dea7010467bb82a7ff5f748148615821956d83e83a84cb23534528a3cde8b2cd.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「まだ悲しいけど」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/dea7010467bb82a7ff5f748148615821956d83e83a84cb23534528a3cde8b2cd.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「船で、ちゃんとお別れ、したし……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……うん」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「そろそろ、依頼も出ていいくらい……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「身体も元気」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「それでも、まだだめ？」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「流石に依頼への復帰はまだ早いな」<br>確か最低でも二ヶ月は……という話だったはず。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「料理ができるくらいには元気で」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/3f67869444171c20eb43b7a6e8bf96cdbfc5aa238061656365f74d4c86ad842d.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「あう……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「こうして作ってもらえて」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「それはありがたく、助かっているよ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/4175ec6b9e570af406e933297a2de6c895ffaa2a07378947e7fce02de43d7f17.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>うれしい。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「……じゃあ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「ちゃんと、ゆっくり休みます」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「ちゃんとエーリカ先生にも、許可をもらって」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「お仕事、出られるようになったら……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「白さんが我慢しなくていいように、なんとかするの」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「やったりしていい……？」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「うーんと……」考え込む仕草を見せる。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「お前が傷ついた子どもであり母親だから、俺と白はお前を気遣っている」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「チェリヴィは、白に気を遣わせないようにしたい」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「だから」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「自分の傷が癒えて元気になったら、白に気を遣わせないでもいいか？　と」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「チェリヴィは、そう言っているんだな？」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>頷く。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/01f3c907fec510259549ab6be20a6c12dae4d46e32a3c387e3d911e80600872d.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「そうじゃないと、白さん、我慢しっぱなしだよ……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「辛い思いをさせているのが苦しい」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「そう感じるのは分かるよ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「俺があの提案を即座には拒まなかったのも、同じ理由だしな」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/01f3c907fec510259549ab6be20a6c12dae4d46e32a3c387e3d911e80600872d.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「クライドさんは……どうして、断ったの？」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「白がそれを望んでいるわけではないと理解したから」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「というのが、最も大きな理由だ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「あの場では……本心では行きたがっているのを、所有者の俺への配慮で我慢しているのではないかと」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「そういう懸念を……心配をしていたから、保留することになったが」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>まあ……あの場で保留したのは自分ではないが…………。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「白が望んでいるわけでもなく」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「あれがすぐに擦り切れる危険があるとも俺は思わなかった」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……俺は、だから、そうだな」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「チェリヴィ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「お前の成長が間に合うんじゃないかと、そう思っているんだよ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「成長……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/01f3c907fec510259549ab6be20a6c12dae4d46e32a3c387e3d911e80600872d.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「もっとしっかりして、もっと強くなれる……ような？」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「しっかりするにも強くなるにも色々な方向性があるから」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「お前が想像している様子と、俺の思うものが一致しているかは分からないが……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「大体はそのような感じだ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/01f3c907fec510259549ab6be20a6c12dae4d46e32a3c387e3d911e80600872d.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「なれるかな……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「分からない」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「なってほしいと思っているし」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「なれるように努めていきたいと思っているし」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「なれるまで付き合おうとも、俺は思っているが」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……どちらにせよ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「今のお前は、まだ、子どもなんだ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「俺にとっても」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……白にとっても」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/01f3c907fec510259549ab6be20a6c12dae4d46e32a3c387e3d911e80600872d.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「……うん……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/01f3c907fec510259549ab6be20a6c12dae4d46e32a3c387e3d911e80600872d.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>子供であることがもどかしいとも思うが、大人であると言えるほど責任を背負えるとも思えない。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……大事な子どもだよ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「大切にしたい」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「だから、我慢もしてしまう」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6d7b806d84621088849b821cde68b460640c8f231c475bc2f15bcfa106cd249c.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「すぐにやめるのは、きっと難しい」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「わかった……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「我慢、させてるのを、……ちょっと我慢する」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「うん」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ecb798c04210005eca6061c341344c41535f4531fc4c42ca6052aee4d6c045b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「大事に、してもらってるってこと、だから……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「俺も我慢する。一緒に我慢しよう」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/3f67869444171c20eb43b7a6e8bf96cdbfc5aa238061656365f74d4c86ad842d.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「うん」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>ゆっくりと頷いて。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……前に、俺と白とで、話をしたことがあっただろう」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「子どもと大人の話というか……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>未成年淫行の話から始まった……</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/71565ef87a8f55bbf9a04de0e150cdbc3c5d605e41e8e6e2fcd5c81666648e53.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「えーと……うん」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/71565ef87a8f55bbf9a04de0e150cdbc3c5d605e41e8e6e2fcd5c81666648e53.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>大人には義務が課せられこどもには権利があるとか……。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/71565ef87a8f55bbf9a04de0e150cdbc3c5d605e41e8e6e2fcd5c81666648e53.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>子供は丸い石のように動かしやすいものであるとか……。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「あれも、要するに」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「お前が大人になる時のためにしている話なんだ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「白も、ただ我慢しているわけではなくて……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「チェリヴィが、大人になって」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「もっとしっかりして、もっと強くなって」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……白が我慢しなくても良くなるくらいに」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「そうなってくれることを期待して、ああいう話をしている」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……のだと思う」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6e8348860c162acb9c69a4c4023cc02a76530f844af81503334efa22a4d32fba.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>これは少し盛っている。白はそこまでの期待を抱いていない。<br>そうなってくれたらいいとは思っているだろうし、<br>そうなってくれると思えるくらい、チェリヴィのことを信用したいとも思っているだろうが。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/539468c4a7f5da46029d37b54aefa23768f491f96ad0fb759c30f7cd53fb01a0.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>けれど。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/539468c4a7f5da46029d37b54aefa23768f491f96ad0fb759c30f7cd53fb01a0.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>そこに祈りはあるだろう。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/3f67869444171c20eb43b7a6e8bf96cdbfc5aa238061656365f74d4c86ad842d.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「僕、ちゃんと覚えられるかな……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「まあ、そこは頑張ろうか」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「勉強は嫌いじゃないだろう？」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>あれだけ熱心にキャメロンから学んでいたのだし。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「うん」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/3f67869444171c20eb43b7a6e8bf96cdbfc5aa238061656365f74d4c86ad842d.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「でも、むずかしいこと、考えるのは、苦手……」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「チェリヴィも、白も、俺も」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「揃って自分の苦手と向き合うことにはなるだろうな」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……なっている、か」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「一人じゃないよ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/9bb9287d00ec63c2d944128874a408a1a952703df27c91f8d8532ee9a0c850b4.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「……なら、よかった」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/9bb9287d00ec63c2d944128874a408a1a952703df27c91f8d8532ee9a0c850b4.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「いっしょにがんばる」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「うん。……頑張ろう」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>傷つけられた子どもで、傷ついた母親で。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>心も身体も、未だ損なわれて戻らない場所が多くあって。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>それでも、それが理由で、</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>誰かのために何かをすることを、我慢しなければならないわけではない。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>それは自分たちの側の理由に過ぎない。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……チェリヴィ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6f0772bad81fef28f428729b00c922f151fa4d061795d0364708318cc29709b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「？」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/6f0772bad81fef28f428729b00c922f151fa4d061795d0364708318cc29709b5.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>顔をあげる。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>視線が合う。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「俺は、お前を頼りにしているよ」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/0a9830c385dc68a65d3468d6e2fd247227f1220ff12b4d6058963b80757adf1a.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>「……よろしくな」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「……！」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ca5470a9e181fe2a11c5ec83c31e1b48f00d0825b690235fce435924923b599e.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「はい！」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/ed7aa82c842fb234c0f0f17f9fdda927a9799efc5dc669031bb2b8ea544fb14a.png" width="60" height="60"></div>
+<div class="p"><b class="name6" >チェリヴィ</b><br>「いっぱい、クライドさんや白さんの役に立ちます！」</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/539468c4a7f5da46029d37b54aefa23768f491f96ad0fb759c30f7cd53fb01a0.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>その献身性に鏡を見る。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/539468c4a7f5da46029d37b54aefa23768f491f96ad0fb759c30f7cd53fb01a0.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>その在り方の危うさを知っている。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/539468c4a7f5da46029d37b54aefa23768f491f96ad0fb759c30f7cd53fb01a0.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>……だからこそここに祈りを託す。</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/539468c4a7f5da46029d37b54aefa23768f491f96ad0fb759c30f7cd53fb01a0.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>役に立ちたいと願う心が、</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/539468c4a7f5da46029d37b54aefa23768f491f96ad0fb759c30f7cd53fb01a0.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>人間と道具に共通の感情が、</div>
+</div>
+
+<div class="main"><div class="ic"><img src="img/539468c4a7f5da46029d37b54aefa23768f491f96ad0fb759c30f7cd53fb01a0.png" width="60" height="60"></div>
+<div class="p"><b class="name4" >クライド</b><br>苦しみを生んでしまうことが、出来うる限り、ないようにと。</div>
+</div>
+
+</div>
+</body>
+</html>
