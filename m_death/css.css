@@ -435,7 +435,7 @@ h3+.player {
     padding-right: 20%;
     padding-top: 5px;
     padding-bottom: 25px;
-    background: rgb(92, 91, 86);
+    background: rgb(109, 113, 132);
     display: flex;
     justify-content: space-around;
     z-index: 10;
@@ -577,7 +577,7 @@ a:visited.page {
 }
 
 a:hover.page {
-    color: rgb(166, 159, 154);
+    color: rgb(23, 49, 198);
     transition: color 0.5s
 }
 
