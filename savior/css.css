@@ -1,0 +1,499 @@
+/* 全体リセットと共通スタイル */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1.8;
+    font-size: .875rem;
+    color: #fff;
+    /* 背景画像をbodyに設定し、スクロールに追従させる */
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #fff; /* 背景画像がない場合の代替色 */
+    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    align-self: flex-start;
+}
+
+b {
+    font-weight: 700;
+}
+
+/* 見出しのwebフォント */
+h1, h2, h3, h4, h5, .menu, .menu2, .type, .box3::before {
+    font-family: 'Noto Serif JP', serif;
+}
+
+/* リンクスタイル */
+a:not(.list_link):not(.tooltip):not(.page) {
+    color: rgb(166, 159, 154);
+}
+
+a:hover:not(.list_link):not(.tooltip):not(.page) {
+    color: rgb(246, 239, 215);
+    transition: color 0.5s;
+}
+
+/* フッターのリンクスタイル */
+a.page {
+    color: rgb(63, 64, 59);
+}
+
+a.page:hover {
+    color: rgb(166, 159, 154);
+    transition: color 0.5s;
+}
+
+/* 一般的な要素とクラス */
+.p {
+    word-break: break-word;
+}
+
+.h1_sub {
+    display: block;
+    font-size: 12px;
+    color: #fff;
+}
+
+hr {
+    border: 0 none;
+    height: 2px;
+    color: rgb(166, 159, 154);
+    background-color: rgb(166, 159, 154);
+}
+
+.body {
+    background: rgba(17, 15, 16, 0.7);
+    max-width: 800px;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+}
+
+.main:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.container_c {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    flex-wrap: nowrap;
+}
+
+.chara {
+    text-align: center;
+    margin: 0 10px;
+    max-width: 120px;
+}
+
+.chara:hover {
+    filter: brightness(120%) drop-shadow(0px 0px 5px rgba(26, 34, 51, 0.1));
+    transform: translateY(-5px);
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+
+.index .body {
+    min-width: 70vw;
+    width: 100%;
+    text-align: center;
+    padding: 40px 15px;
+}
+
+.menu {
+    font-size: 150%;
+    margin: 30px auto;
+    line-height: 100%;
+}
+
+.menu2 {
+    font-size: 120%;
+    margin: 20px auto;
+}
+
+.menu > a, .menu2 > a {
+    text-decoration: none;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.list_link {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 350px;
+    margin: 3px 5px;
+    padding: 0.8rem 0.5rem;
+}
+
+.list_link::before, .list_link::after {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    content: '';
+}
+
+.list_link, .list_link::before, .list_link::after {
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+.list_link:hover {
+    border-color: rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+.credit {
+    color: rgb(166, 159, 154);
+    margin: 20px auto;
+}
+
+.system {
+    color: #fff;
+    margin-bottom: 15px;
+    background: rgba(0, 0, 0, .5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: block;
+}
+
+.system + .system {
+    margin-top: -10px;
+}
+
+.main {
+    display: flex;
+    text-align: justify;
+}
+
+.main:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+small {
+    font-size: 80%;
+}
+
+.success {
+    color: #2196f3;
+}
+
+.fail {
+    color: #f50057;
+}
+
+.name1 {
+    color: rgb(136, 136, 136);
+}
+
+.name2 {
+    color: rgb(255, 87, 34);
+}
+
+.name3 {
+    color: rgb(103, 58, 183);
+}
+
+.name4 {
+    color: rgb(156, 39, 176);
+}
+
+.name5 {
+    color: rgb(233, 30, 99);
+}
+
+h1 {
+    font-size: 200%;
+    position: relative;
+    padding: 15px 10px;
+    margin: 10px auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    position: relative;
+    padding: 10px 10px;
+    background-color: rgba(166, 159, 154, 0.4);
+}
+
+h3 {
+    position: relative;
+    padding: 5px 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: rgba(166, 159, 154, 0.5);
+}
+
+h4 {
+    position: relative;
+    padding: 5px 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: rgba(166, 159, 154, 0.5);
+}
+
+h2 + h3 + h4 {
+    margin-top: -5px;
+}
+
+.footer + h3 {
+    margin-top: 0px;
+}
+
+h3 + .player {
+    margin-top: -10px;
+}
+
+.player {
+    border-left: 6px double rgba(166, 159, 154, 0.5);
+    padding: 5px 10px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.cutin {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    object-position: 0 5%;
+    margin-bottom: 15px;
+}
+
+.footer {
+    position: fixed;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    background: rgb(92, 91, 86);
+    display: flex;
+    justify-content: space-around;
+    z-index: 10;
+    font-weight: bold;
+}
+
+.box, .system {
+    padding: 10px 10px;
+    margin: 1.0em auto;
+    background: rgba(180, 179, 172, 0.2);
+    border-radius: 10px;
+}
+
+.box2 {
+    padding: 10px 10px;
+    margin: 1.0em auto;
+    background: rgba(246, 239, 215, 0.3);
+    border-radius: 10px;
+}
+
+.box3 {
+    padding: 10px 10px;
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
+    background: rgba(214, 140, 184, 0.2);
+    border-radius: 10px;
+    position: relative;
+}
+
+.box3::before {
+    color: rgb(255, 255, 255);
+    content: "一方その頃";
+    font-weight: bold;
+    font-size: 160%;
+    right: 20px;
+    padding: 3px 8px;
+    position: absolute;
+    top: -20px;
+}
+
+.card {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.box_t {
+    font-size: 110%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* メディアクエリ */
+@media screen and (max-width: 767px) {
+    .body {
+        padding: 10px 10px 60px;
+    }
+    
+    .logo {
+        margin: 15px auto 40px;
+        max-width: 70%;
+        max-height: auto;
+    }
+
+    hr {
+        width: 70%;
+    }
+
+    .type {
+        color: rgb(166, 159, 154);
+        font-size: 90%;
+        margin: 20px auto;
+    }
+    
+    .ic {
+        margin-right: 10px;
+    }
+    
+    .ic img {
+        max-width: 40px;
+    }
+    
+    .box, .system, .box2 {
+        width: 90%;
+    }
+    
+    .box img, .box2 img {
+        max-width: 30px;
+    }
+
+    h2 {
+        font-size: 140%;
+        margin: 15px auto;
+    }
+    
+    h3 {
+        font-size: 120%;
+    }
+    
+    h4 {
+        font-size: 120%;
+    }
+
+    .player {
+        font-size: 110%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .body {
+        padding: 20px 30px 60px;
+    }
+    
+    .logo {
+        margin: 20px auto 30px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    hr {
+        width: 50%;
+    }
+
+    .type {
+        color: rgb(166, 159, 154);
+        font-size: 120%;
+        margin: 20px auto;
+    }
+    
+    .ic {
+        margin-right: 15px;
+    }
+    
+    .ic img {
+        max-width: 60px;
+    }
+    
+    .box, .system, .box2 {
+        width: 80%;
+    }
+    
+    .box img, .box2 img {
+        max-width: 40px;
+    }
+
+    h2 {
+        font-size: 200%;
+        margin: 15px auto;
+    }
+    
+    h3 {
+        font-size: 160%;
+    }
+
+    h4 {
+        font-size: 160%;
+    }
+
+    .player {
+        font-size: 120%;
+    }
+}
+
+/* 不要な`.background`クラスを削除 */
+.background {
+    display: none;
+}
